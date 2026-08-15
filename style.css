@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    user-select: none;
+}
+
+.calculator {
+    width: 300px;
+    background: #101720;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.keyboards {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 65px;
+    height: 65px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 100%;
+}
+.plus, .multiply{
+    background-color: aqua;
+    color: white;
+}
+.minus, .divide{
+    background-color: chocolate;
+    color: white;
+}
+.clear{
+    background-color: red;
+    color: white;
+}
